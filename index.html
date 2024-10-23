@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form method="get" class="form-example">
+        <h1>Welcome to this guess a number website.</h1>
+        <ul>This game is played with 2 players:
+            <li>First player has to give a number between 0 and 50</li>
+            <li>Second player has to guess the number in the fewest tries</li>
+        </ul>
+        <label for="name" id="guess_give"></label>
+        <input type="number" id="number" required minlength="1" />
+        <input type="button" class="submit-button" value="Envoyer" />
+        <h3 id="big_small"></h3>
+        <h3 id="count"></h3>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

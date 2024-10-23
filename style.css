@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color:burlywood;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.submit-button {
+    background-color: blue;
+    color: white;
+}
+
+#guess_give, ul {
+    font-weight: bold;
+}
+
+li {
+    font-weight: normal;
+    list-style-position: inside;
+}
